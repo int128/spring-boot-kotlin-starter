@@ -1,0 +1,5 @@
+---
+applications:
+- name: spring-boot-kotlin-starter
+  memory: 512M
+  path: build/libs/kotlin-boot-cf-starter.jar
