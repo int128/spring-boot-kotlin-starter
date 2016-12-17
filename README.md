@@ -24,7 +24,7 @@ Open http://localhost:8080/items in your browser.
 Make post request to add an item as follows.
 
 ```sh
-curl -X POST -d '{"name": "Foo", "description": "Bar"}' -H 'Content-Type: application/json'
+curl http://localhost:8080/items -X POST -d '{"name": "Foo", "description": "Bar"}' -H 'Content-Type: application/json'
 ```
 
 Deploy on Cloud Foundry.
