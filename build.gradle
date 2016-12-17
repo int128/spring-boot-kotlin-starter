@@ -5,11 +5,13 @@ buildscript {
     dependencies {
         classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.3.5.RELEASE'
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.2'
+        classpath "com.github.ben-manes:gradle-versions-plugin:0.13.0"
     }
 }
 
 apply plugin: 'kotlin'
 apply plugin: 'spring-boot'
+apply plugin: 'com.github.ben-manes.versions'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
