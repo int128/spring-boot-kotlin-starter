@@ -1,0 +1,8 @@
+spring:
+  jpa.hibernate.ddl-auto: update
+  datasource:
+    url: jdbc:h2:mem:dev
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2.console.enabled: true
